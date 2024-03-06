@@ -40,3 +40,40 @@ header a {
 header nav ul {
     list-style: none;
 }
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 35px;
+}
+
+header nav.menu-desktop ul li a {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+header nav.menu-desktop a:hover {
+    transform: scale(1.2);
+    display: inline-block;
+    transition: .3s;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+button:hover,
+form .btn-enviar input:hover {
+  box-shadow: 0px 0px 8px #fff;
+  transform: scale(1.05);
+}
+
+/*---- Estilo Topo do site -----*/
+
+
+
