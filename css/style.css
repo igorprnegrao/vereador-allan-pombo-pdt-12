@@ -453,7 +453,17 @@ footer .flex {
 }
 
 .footer-logo-img {
-    left: 45px;
+    position: relative;
+    left: 25px;
+}
+
+#footer-list .footer-link {
+    color: #d9d9d9;
+    transition: all 0.4s; /*tempo de transição hover*/
+}
+
+#footer-list h3 {
+    color: #fff;
 }
 
 
