@@ -296,6 +296,13 @@ section.mandato .txt-mandato h2 span {
     color: aqua;
 }
 
+.mandato .txt-mandato p {
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 25px;
+}
+
 
 
 
