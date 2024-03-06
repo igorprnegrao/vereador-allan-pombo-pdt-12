@@ -465,7 +465,7 @@ footer .flex {
 
 .footer-logo-img {
     position: relative;
-    left: 25px;
+    left: 40px;
 }
 
 #footer-list .footer-link {
@@ -484,12 +484,26 @@ footer .flex {
 .footer-logo-p {
     color: #fff;
     font-size: 16px;
-    left: 13px;
+    position: relative;;
+    left: 17px;
 }
 
 #footer-list .footer-link:hover {
     color: #22a7f5;
 }
+
+
+#footer-copyright {
+    padding: 20px 0;
+    background-color: #000;
+}
+
+#footer-copyright p {
+    color: #fff;
+    text-align: center;
+}
+
+
 
 
 
