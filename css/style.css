@@ -23,6 +23,10 @@ body {
     display: flex;
 }
 
+h2.titulo {
+    text-align: center;
+}
+
 /*------  Estilo CABEÇALHO -----*/
 
 header {
@@ -302,6 +306,79 @@ section.mandato .txt-mandato h2 span {
     line-height: 25px;
     text-indent: 25px;
 }
+
+/*-------- Estilo Formulario ---------*/
+
+section .formulario {
+    padding: 80px 4%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input {
+    width: 100%;
+    background-color: #22a7f5;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea {
+    width: 100%;
+    background-color: #22a7f5;
+    border: 0;
+    outline: 0;
+    padding: 40px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form input::placeholder {
+    color: #000;
+}
+
+form textarea::placeholder {
+    color: #000;
+    text-align: left;
+    position: absolute;
+    top: 20px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input[type="submit"] {
+    width: 120px;
+    background-color: #22a7f5;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+    height: 70px;
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+
 
 
 
