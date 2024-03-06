@@ -290,7 +290,7 @@ section.mandato .txt-mandato {
     color: #fff;
 }
 
-section.mandato .txt-mandato h2 {
+section.mandato .txt-mandato .titulo {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 40px;
@@ -321,6 +321,17 @@ form {
     flex-direction: column;
     gap: 10px;
     margin-top: 40px;
+}
+
+section.formulario .titulo {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+section.formulario  h2 span {
+    color: aqua;
 }
 
 form input {
@@ -381,7 +392,7 @@ form .btn-enviar input[type="submit"] {
 /*-------- Estilo Rodapé ---------*/
 
 footer {
-    padding: 60px 4%;
+    padding: 60px 8%;
     box-shadow: 0 0 40px 10 #ffffff1d;
     letter-spacing: 1px;
     background-color: #1717177c;
@@ -464,6 +475,20 @@ footer .flex {
 
 #footer-list h3 {
     color: #fff;
+}
+
+.titulo-h3 {
+    font-size: 23px;
+}
+
+.footer-logo-p {
+    color: #fff;
+    font-size: 16px;
+    left: 13px;
+}
+
+#footer-list .footer-link:hover {
+    color: #22a7f5;
 }
 
 
