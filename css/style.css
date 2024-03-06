@@ -200,6 +200,37 @@ section.bandeiras .txt-bandeiras {
     
 }
 
+/*-- Estilo Casa Pombo --*/
+
+section.casa-pombo {
+    padding: 80px 4%;
+}
+
+section.casa-pombo .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+section.casa-pombo .txt-casa-pombo {
+    color: #fff;
+}
+
+.casa-pombo .txt-casa-pombo h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.casa-pombo .txt-casa-pombo h2 span {
+    color: aqua;
+}
+
+.casa-pombo .txt-casa-pombo p {
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 25px;
+}
 
 
 
