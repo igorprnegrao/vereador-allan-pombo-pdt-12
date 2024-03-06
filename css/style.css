@@ -19,6 +19,9 @@ body {
     max-width: 1280px;
     margin: 0 auto;
 }
+.flex {
+    display: flex;
+}
 
 /*------  Estilo CABEÇALHO -----*/
 
@@ -74,6 +77,49 @@ form .btn-enviar input:hover {
 }
 
 /*---- Estilo Topo do site -----*/
+
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+section.topo-do-site .txt-topo-do-site {
+    color: #fff;
+    font-size: 42px;
+    line-height: 70px;
+}
+
+section.topo-do-site .txt-topo-do-site h1 span {
+    color: aqua;
+}
+
+.topo-do-site .img-topo-do-site img {
+    width: 500px;
+}
+
+.topo-do-site .img-topo-do-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 20px;
+    }
+}
+
+/*-- Estilo do Sobre mim --*/
+
+
+
 
 
 
