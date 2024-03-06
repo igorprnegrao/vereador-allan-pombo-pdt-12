@@ -118,6 +118,94 @@ section.topo-do-site .txt-topo-do-site h1 span {
 
 /*-- Estilo do Sobre mim --*/
 
+section.sobre-mim {
+    padding: 80px 4%;
+}
+
+section.sobre-mim .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.sobre-mim .txt-sobre-mim {
+    color: #fff;
+}
+
+.sobre-mim .txt-sobre-mim h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.sobre-mim .txt-sobre-mim h2 span {
+    color: aqua;
+    display: block;
+}
+
+.sobre-mim .txt-sobre-mim p {
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 25px;
+    text-indent: 25px;
+}
+
+/*-- Estilo do Bandeiras --*/
+
+section.bandeiras {
+    padding: 80px 4%;
+}
+
+section.bandeiras .flex {
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 60px;
+}
+
+section.bandeiras .txt-bandeiras {
+    color: #fff;
+}
+
+.bandeiras .txt-bandeiras h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.bandeiras .txt-bandeiras h2 span {
+    color: aqua;
+}
+
+.bandeiras .txt-bandeiras ul {
+    list-style: none;
+}
+
+.txt-bandeiras ul li {
+    padding: 12px 0;
+    text-align: center;
+    background-color: aqua;
+    margin: 5px 0;
+    border-radius: 20px;
+    color: black;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.txt-bandeiras ul li:hover {
+    box-shadow: 0px 0px 8px #fff;
+    transform: scale(1.01);
+    background-color: #00ff08;
+    
+}
+
+
+
+
+
+
+
 
 
 
