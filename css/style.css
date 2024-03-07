@@ -504,13 +504,30 @@ footer .flex {
 }
 
 @media screen and (max-width: 1393px) {
+    
+    /*---- Geral ----*/
+
+    .flex {
+        flex-direction: column;
+    }
+
+    /*---- Cabeçalho ----*/
     .menu-desktop, .btn-contato {
         display: none;
     }
-    
+
     .logo img {
         width: 150px;
     }
+
+    /*---- Topo do site ----*/
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    
+
 
 }
 
