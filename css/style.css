@@ -656,5 +656,11 @@ footer .flex {
   .footer-social-midia {
     margin: 0 auto;
     margin-top: 25px;
+    margin-bottom: 25px;
   }
+
+  .footer-campanha {
+    margin-bottom: 25px;
+  }
+
 }
