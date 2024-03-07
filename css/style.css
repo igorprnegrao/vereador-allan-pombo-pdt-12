@@ -50,7 +50,7 @@ header nav ul {
 
 header nav.menu-desktop ul li {
   display: inline-block;
-  padding: 0 35px;
+  padding: 0 25px;
 }
 
 header nav.menu-desktop ul li a {
@@ -500,7 +500,7 @@ footer .flex {
   text-align: center;
 }
 
-@media screen and (max-width: 1393px) {
+@media screen and (max-width: 1279px) {
   /*---- Geral ----*/
 
   .flex {
@@ -556,7 +556,7 @@ footer .flex {
   }
 
   .sobre-mim .txt-sobre-mim h2 {
-    font-size: 25px;
+    font-size: 34px;
     line-height: 40px;
     margin-bottom: 30px;
     margin-top: 0;
@@ -583,7 +583,7 @@ footer .flex {
   }
 
   .bandeiras .txt-bandeiras h2 {
-    font-size: 40px;
+    font-size: 34px;
     line-height: 40px;
     margin-bottom: 20px;
   }
