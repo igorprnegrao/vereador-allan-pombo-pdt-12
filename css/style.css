@@ -1,77 +1,77 @@
 /*-------- Estilo GERAL ---------*/
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-image: url('../images/bg-site-allan.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 100vh;
+  background-image: url("../images/bg-site-allan.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .interface {
-    max-width: 1280px;
-    margin: 0 auto;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 .flex {
-    display: flex;
+  display: flex;
 }
 
 h2.titulo {
-    text-align: center;
+  text-align: center;
 }
 
 /*------  Estilo CABEÇALHO -----*/
 
 header {
-    padding: 40px 4%;
+  padding: 40px 4%;
 }
 
 header .interface {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 header nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 header nav.menu-desktop ul li {
-    display: inline-block;
-    padding: 0 35px;
+  display: inline-block;
+  padding: 0 35px;
 }
 
 header nav.menu-desktop ul li a {
-    font-size: 18px;
-    letter-spacing: 1px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 header nav.menu-desktop a:hover {
-    transform: scale(1.2);
-    display: inline-block;
-    transition: .3s;
+  transform: scale(1.2);
+  display: inline-block;
+  transition: 0.3s;
 }
 
 .btn-contato button {
-    padding: 10px 40px;
-    font-weight: 600;
-    background-color: #fff;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    opacity: 0.6;
+  padding: 10px 40px;
+  font-weight: 600;
+  background-color: #fff;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 button:hover,
@@ -83,531 +83,557 @@ form .btn-enviar input:hover {
 /*---- Estilo Topo do site -----*/
 
 section.topo-do-site {
-    padding: 40px 4%;
+  padding: 40px 4%;
 }
 
 section.topo-do-site .flex {
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
 }
 
 section.topo-do-site .txt-topo-do-site {
-    color: #fff;
-    font-size: 42px;
-    line-height: 70px;
+  color: #fff;
+  font-size: 42px;
+  line-height: 70px;
 }
 
 section.topo-do-site .txt-topo-do-site h1 span {
-    color: aqua;
+  color: aqua;
 }
 
 .topo-do-site .img-topo-do-site img {
-    width: 500px;
+  width: 500px;
 }
 
 .topo-do-site .img-topo-do-site img {
-    position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
+  position: relative;
+  animation: flutuar 2s ease-in-out infinite alternate;
 }
 
 @keyframes flutuar {
-    0% {
-        top: 0;
-    }
-    100% {
-        top: 20px;
-    }
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 20px;
+  }
 }
 
 /*-- Estilo do Sobre mim --*/
 
 section.sobre-mim {
-    padding: 80px 4%;
+  padding: 80px 4%;
 }
 
 section.sobre-mim .flex {
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
 }
 
 .sobre-mim .txt-sobre-mim {
-    color: #fff;
+  color: #fff;
 }
 
 .sobre-mim .txt-sobre-mim h2 {
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 30px;
-    margin-top: 50px;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
 
 .sobre-mim .txt-sobre-mim h2 span {
-    color: aqua;
-    display: block;
+  color: aqua;
+  display: block;
 }
 
 .sobre-mim .txt-sobre-mim p {
-    margin: 20px 0;
-    text-align: justify;
-    line-height: 25px;
-    text-indent: 25px;
+  margin: 20px 0;
+  text-align: justify;
+  line-height: 25px;
+  text-indent: 25px;
 }
 
 /*-- Estilo do Bandeiras --*/
 
 section.bandeiras {
-    padding: 80px 4%;
+  padding: 80px 4%;
 }
 
 section.bandeiras .flex {
-    align-items: center;
-    flex-direction: row-reverse;
-    gap: 60px;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 60px;
 }
 
 section.bandeiras .txt-bandeiras {
-    color: #fff;
+  color: #fff;
 }
 
 .bandeiras .txt-bandeiras h2 {
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 40px;
 }
 
 .bandeiras .txt-bandeiras h2 span {
-    color: aqua;
+  color: aqua;
 }
 
 .bandeiras .txt-bandeiras ul {
-    list-style: none;
+  list-style: none;
 }
 
 .txt-bandeiras ul li {
-    padding: 12px 0;
-    text-align: center;
-    background-color: aqua;
-    margin: 5px 0;
-    border-radius: 20px;
-    color: black;
-    opacity: 0.8;
-    font-size: 18px;
-    font-weight: 700;
+  padding: 12px 0;
+  text-align: center;
+  background-color: aqua;
+  margin: 5px 0;
+  border-radius: 20px;
+  color: black;
+  opacity: 0.8;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .txt-bandeiras ul li:hover {
-    box-shadow: 0px 0px 8px #fff;
-    transform: scale(1.01);
-    background-color: #00ff08;
-    
+  box-shadow: 0px 0px 8px #fff;
+  transform: scale(1.01);
+  background-color: #00ff08;
 }
 
 /*-- Estilo Casa Pombo --*/
 
 section.casa-pombo {
-    padding: 80px 4%;
+  padding: 80px 4%;
 }
 
 section.casa-pombo .flex {
-    align-items: center;
-    gap: 60px;
+  align-items: center;
+  gap: 60px;
 }
 
 section.casa-pombo .txt-casa-pombo {
-    color: #fff;
+  color: #fff;
 }
 
 .casa-pombo .txt-casa-pombo h2 {
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 40px;
 }
 
 .casa-pombo .txt-casa-pombo h2 span {
-    color: aqua;
+  color: aqua;
 }
 
 .casa-pombo .txt-casa-pombo p {
-    margin: 20px 0;
-    text-align: justify;
-    line-height: 25px;
-    text-indent: 25px;
+  margin: 20px 0;
+  text-align: justify;
+  line-height: 25px;
+  text-indent: 25px;
 }
 
 /*-------- Estilo mandato ---------*/
 
 section.mandato {
-    padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #ffffff1d;
+  padding: 80px 4%;
+  box-shadow: 0 0 40px 10px #ffffff1d;
 }
 
 section.mandato .flex {
-    justify-content: space-around;
-    margin-top: 60px;
+  justify-content: space-around;
+  margin-top: 60px;
 }
 
 .img-mandato {
-    width: 360px;
-    height: 460px;
-    background-color: #000000a9;
-    background-size: cover;
-    background-position: 100% 0%;
-    transition: 8s;
-    cursor: pointer;
-    border-radius: 40px;
-    position: relative;
+  width: 360px;
+  height: 460px;
+  background-color: #000000a9;
+  background-size: cover;
+  background-position: 100% 0%;
+  transition: 8s;
+  cursor: pointer;
+  border-radius: 40px;
+  position: relative;
 }
 
 .img-mandato:hover {
-    background-position: 100% 100%;
+  background-position: 100% 100%;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #08080856;
-    border-radius: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    font-weight: 600;
-    color: #fff;
-    opacity: 0;
-    transition: 0.5s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #08080856;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0;
+  transition: 0.5s;
 }
 
 .overlay:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 section.mandato .txt-mandato {
-    color: #fff;
+  color: #fff;
 }
 
 section.mandato .txt-mandato .titulo {
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 40px;
 }
 
 section.mandato .txt-mandato h2 span {
-    color: aqua;
+  color: aqua;
 }
 
 .mandato .txt-mandato p {
-    margin: 20px 0;
-    text-align: justify;
-    line-height: 25px;
-    text-indent: 25px;
+  margin: 20px 0;
+  text-align: justify;
+  line-height: 25px;
+  text-indent: 25px;
 }
 
 /*-------- Estilo Formulario ---------*/
 
 section .formulario {
-    padding: 80px 4%;
+  padding: 80px 4%;
 }
 
 form {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 40px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
 }
 
 section.formulario .titulo {
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 40px;
-    color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 40px;
+  color: #fff;
 }
 
-section.formulario  h2 span {
-    color: aqua;
+section.formulario h2 span {
+  color: aqua;
 }
 
 form input {
-    width: 100%;
-    background-color: #22a7f5;
-    border: 0;
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 15px;
-    color: #fff;
-    font-size: 18px;
+  width: 100%;
+  background-color: #22a7f5;
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
 }
 
 form textarea {
-    width: 100%;
-    background-color: #22a7f5;
-    border: 0;
-    outline: 0;
-    padding: 40px 15px;
-    border-radius: 15px;
-    color: #fff;
-    font-size: 18px;
+  width: 100%;
+  background-color: #22a7f5;
+  border: 0;
+  outline: 0;
+  padding: 40px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 18px;
 }
 
 form input::placeholder {
-    color: #000;
+  color: #000;
 }
 
 form textarea::placeholder {
-    color: #000;
-    text-align: left;
-    position: absolute;
-    top: 20px;
+  color: #000;
+  text-align: left;
+  position: absolute;
+  top: 20px;
 }
 
 form textarea {
-    resize: none;
-    max-height: 200px;
+  resize: none;
+  max-height: 200px;
 }
 
 form .btn-enviar {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 form .btn-enviar input[type="submit"] {
-    width: 120px;
-    background-color: #22a7f5;
-    color: #000;
-    font-weight: 700;
-    cursor: pointer;
-    transition: 0.2s;
-    height: 70px;
-    width: 150px;
-    margin-bottom: 50px;
+  width: 120px;
+  background-color: #22a7f5;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+  height: 70px;
+  width: 150px;
+  margin-bottom: 50px;
 }
 
 /*-------- Estilo Rodapé ---------*/
 
 footer {
-    padding: 60px 8%;
-    box-shadow: 0 0 40px 10 #ffffff1d;
-    letter-spacing: 1px;
-    background-color: #1717177c;
+  padding: 60px 8%;
+  box-shadow: 0 0 40px 10 #ffffff1d;
+  letter-spacing: 1px;
+  background-color: #1717177c;
 }
 
 footer .flex {
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-conteudo .footer-logo-contato p {
-    color: #fff;
-    
-} 
+  color: #fff;
+}
 
 .footer-conteudo .footer-logo-contato h2 {
-    margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .footer-social-midia {
-    display: flex;
-    gap: 1rem;
-    font-size: 30px;
-    margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 30px;
+  margin-top: 1.5rem;
 }
 
 .footer-social-midia .footer-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    color: #fff;
-    border-radius: 50%;
-    transition: all 0.4s; /*tempo de transição hover*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.4s; /*tempo de transição hover*/
 }
 
 .footer-link {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .footer-social-midia .footer-link:hover {
-    opacity: .8;
+  opacity: 0.8;
 }
 
 #instagram {
-    background: linear-gradient( #7f37c9, #ff2992, #ff9807 );
+  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
 }
 #facebook {
-    background-color: #4267b3;
+  background-color: #4267b3;
 }
 #whatsapp {
-    background-color: #25d366;
+  background-color: #25d366;
 }
 #x-twitter {
-    background-color: #000;
+  background-color: #000;
 }
 
 #tiktok {
-    background-color: #000;
+  background-color: #000;
 }
 
-#footer-list  {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    list-style: none;
+#footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
 }
 
 .footer-logo-img {
-    position: relative;
-    left: 40px;
+  position: relative;
+  left: 40px;
 }
 
 #footer-list .footer-link {
-    color: #d9d9d9;
-    transition: all 0.4s; /*tempo de transição hover*/
+  color: #d9d9d9;
+  transition: all 0.4s; /*tempo de transição hover*/
 }
 
 #footer-list h3 {
-    color: #fff;
+  color: #fff;
 }
 
 .titulo-h3 {
-    font-size: 23px;
+  font-size: 23px;
 }
 
 .footer-logo-p {
-    color: #fff;
-    font-size: 16px;
-    position: relative;;
-    left: 17px;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  left: 17px;
 }
 
 #footer-list .footer-link:hover {
-    color: #22a7f5;
+  color: #22a7f5;
 }
 
-
 #footer-copyright {
-    padding: 20px 0;
-    background-color: #000;
+  padding: 20px 0;
+  background-color: #000;
 }
 
 #footer-copyright p {
-    color: #fff;
-    text-align: center;
+  color: #fff;
+  text-align: center;
 }
 
 @media screen and (max-width: 1393px) {
-    
-    /*---- Geral ----*/
+  /*---- Geral ----*/
 
-    .flex {
-        flex-direction: column;
-    }
+  .flex {
+    flex-direction: column;
+  }
 
-    /*---- Cabeçalho ----*/
-    
-    header {
+  /*---- Cabeçalho ----*/
+
+  header {
     padding: 30px 8%;
     margin-bottom: -60px;
-    }
+  }
 
+  .menu-desktop,
+  .btn-contato {
+    display: none;
+  }
 
-    .menu-desktop, .btn-contato {
-        display: none;
-    }
+  .logo img {
+    width: 150px;
+  }
 
-    .logo img {
-        width: 150px;
-    }
+  /*---- Topo do site ----*/
 
-    /*---- Topo do site ----*/
-
-    section.topo-do-site {
+  section.topo-do-site {
     padding: 40px 8%;
-    }
-    .topo-do-site .flex {
-        flex-direction: column-reverse;
-    }
+  }
+  .topo-do-site .flex {
+    flex-direction: column-reverse;
+  }
 
-    .topo-do-site .img-topo-do-site img {
+  .topo-do-site .img-topo-do-site img {
     width: 390px;
-    }
+  }
 
-    section.topo-do-site .flex {
-        gap: 10px;
-    }
+  section.topo-do-site .flex {
+    gap: 10px;
+  }
 
-    section.topo-do-site .txt-topo-do-site {
+  section.topo-do-site .txt-topo-do-site {
     font-size: 26px;
     line-height: 40px;
-    }   
+  }
 
-    /*---- sobre ----*/
+  /*---- sobre ----*/
 
-    section.sobre-mim {
+  section.sobre-mim {
     padding: 10px 8%;
-    }
+  }
 
-    section.sobre-mim .img-sobre-mim img {
-        width:300px ;
-    }
+  section.sobre-mim .img-sobre-mim img {
+    width: 300px;
+  }
 
-    .sobre-mim .txt-sobre-mim h2 {
+  .sobre-mim .txt-sobre-mim h2 {
     font-size: 25px;
     line-height: 40px;
     margin-bottom: 30px;
     margin-top: 0;
-    }
+  }
 
-    section.sobre-mim .flex {
+  section.sobre-mim .flex {
     gap: 0px;
-    }
+  }
 
-    /*---- Bandeiras ----*/
+  /*---- Bandeiras ----*/
 
-    section.bandeiras {
-        padding: 30px 8%;
-    }
+  section.bandeiras {
+    padding: 30px 8%;
+  }
 
-    section.bandeiras .flex {
-        align-items: center;
-        flex-direction: column;
-        gap: 0px;
-    }
+  section.bandeiras .flex {
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    section.bandeiras .img-bandeiras img {
-        width: 370px;
-    }
+  section.bandeiras .img-bandeiras img {
+    width: 370px;
+  }
 
-    .bandeiras .txt-bandeiras h2 {
-    font-size: 25px;
+  .bandeiras .txt-bandeiras h2 {
+    font-size: 40px;
     line-height: 40px;
     margin-bottom: 20px;
-    }
+  }
 
-    /*-- Casa Pombo --*/
+  /*-- Casa Pombo --*/
 
+  section.casa-pombo {
+    padding: 50px 8%;
+  }
 
+  section.casa-pombo .flex {
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
 
+  section.casa-pombo .img-casa-pombo img {
+    width: 300px;
+  }
+
+  /*-- Mandato --*/
+  section.mandato {
+    padding: 50px 8%;
+  }
+
+  .img-mandato {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  section.mandato .flex {
+    gap: 40px;
+  }
+
+  /*-- Mandato --*/
+
+  section.formulario {
+    padding: 15px 8%;
+  }
+
+  form .btn-enviar input[type="submit"] {
+    width: 120px;
+    width: 300px;
+    margin-bottom: 50px;
+  }
+  button:hover,
+  form .btn-enviar input:hover {
+    transform: scale(1.01);
+  }
+
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
