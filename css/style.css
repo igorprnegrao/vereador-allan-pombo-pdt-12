@@ -83,6 +83,11 @@ form .btn-enviar input:hover {
 
 /*---- Cabeçalho Menu mobile ----*/
 
+header .btn-abrir-mobile i {
+  color: #fff;
+  font-size: 50px;
+  margin-left: 180px;
+}
 
 header .menu-mobile {
     background-color: rgba(82, 173, 222, 0.903);
@@ -91,7 +96,8 @@ header .menu-mobile {
     top: 0;
     right: 0;
     z-index: 99999;
-    width: 70%;
+    width: 0%;
+    overflow: hidden;
   }
 
   .menu-mobile .btn-fechar i {
