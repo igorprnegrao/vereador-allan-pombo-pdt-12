@@ -512,6 +512,13 @@ footer .flex {
     }
 
     /*---- Cabeçalho ----*/
+    
+    header {
+    padding: 30px 4%;
+    margin-bottom: -60px;
+    }
+
+
     .menu-desktop, .btn-contato {
         display: none;
     }
@@ -526,7 +533,18 @@ footer .flex {
         flex-direction: column-reverse;
     }
 
-    
+    .topo-do-site .img-topo-do-site img {
+    width: 390px;
+    }
+
+    section.topo-do-site .flex {
+        gap: 10px;
+    }
+
+    section.topo-do-site .txt-topo-do-site {
+    font-size: 27px;
+    line-height: 40px;
+    }   
 
 
 }
