@@ -635,5 +635,26 @@ footer .flex {
     transform: scale(1.01);
   }
 
-  
+  /*-- Footer --*/
+
+  footer {
+    padding: 30px 8%;
+  }
+
+  footer .flex {
+    gap: 20px;
+  }
+  .footer-conteudo .footer-logo-contato h2 {
+    width: 150px;
+  }
+
+  .footer-logo-img {
+    position: relative;
+    left: 45px;
+  }
+
+  .footer-social-midia {
+    margin: 0 auto;
+    margin-top: 25px;
+  }
 }
