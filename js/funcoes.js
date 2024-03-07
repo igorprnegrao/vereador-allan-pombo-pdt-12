@@ -1,5 +1,7 @@
 let btnMenu = document.getElementById('btn-abrir-menu')
 
+let btnAbrir = document.getElementById('btn-abrir')
+
 let menu = document.getElementById('menu-mobile')
 
 let overlay = document.getElementById('overlay-menu')
