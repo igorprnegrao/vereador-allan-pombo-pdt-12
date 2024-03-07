@@ -128,6 +128,17 @@ header .menu-mobile {
 
   }
 
+  .overlay-menu {
+    background-color: #0000005f;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+  }
+
 
 
 
