@@ -598,7 +598,12 @@ footer .flex {
 
   /*---- Menu mobile ----*/
 
-  
+  header .btn-abrir-mobile i {
+    color: #fff;
+    font-size: 50px;
+    margin-left: 131px;
+    display: block;
+  }
 
 
   /*---- Topo do site ----*/
