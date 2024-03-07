@@ -514,7 +514,7 @@ footer .flex {
     /*---- Cabeçalho ----*/
     
     header {
-    padding: 30px 4%;
+    padding: 30px 8%;
     margin-bottom: -60px;
     }
 
@@ -529,6 +529,9 @@ footer .flex {
 
     /*---- Topo do site ----*/
 
+    section.topo-do-site {
+    padding: 40px 8%;
+    }
     .topo-do-site .flex {
         flex-direction: column-reverse;
     }
@@ -542,9 +545,55 @@ footer .flex {
     }
 
     section.topo-do-site .txt-topo-do-site {
-    font-size: 27px;
+    font-size: 26px;
     line-height: 40px;
     }   
+
+    /*---- sobre ----*/
+
+    section.sobre-mim {
+    padding: 10px 8%;
+    }
+
+    section.sobre-mim .img-sobre-mim img {
+        width:300px ;
+    }
+
+    .sobre-mim .txt-sobre-mim h2 {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    }
+
+    section.sobre-mim .flex {
+    gap: 0px;
+    }
+
+    /*---- Bandeiras ----*/
+
+    section.bandeiras {
+        padding: 30px 8%;
+    }
+
+    section.bandeiras .flex {
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    section.bandeiras .img-bandeiras img {
+        width: 370px;
+    }
+
+    .bandeiras .txt-bandeiras h2 {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    }
+
+    /*-- Casa Pombo --*/
+
 
 
 }
